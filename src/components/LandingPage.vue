@@ -38,8 +38,8 @@
     <Socials_btn></Socials_btn>
     </div>
     <!-- right -->
-    <div id="my_projects" class="col-sm-12 col-md-6 text-end justify-content-end">
-       <h6>MY PROJECTS <Projects></Projects></h6>
+    <div  class="col-sm-12 col-md-6 text-end justify-content-end">
+       <h6 ><span id="my_projects">MY PROJECTS</span><Projects></Projects></h6>
     </div>
 </div>
    </div>

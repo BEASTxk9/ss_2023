@@ -1,7 +1,7 @@
 <template lang="">
 <div class="container">
     <div class="row">
-        <h1 class="pb-4">ABOUT</h1>
+        <h1 class="pb-5">ABOUT</h1>
         <!-- img -->
         <div class="col-sm-12 col-md-6">
           <img id="ss" class="rounded-pill" src="https://i.postimg.cc/8P3Z2Mn2/me3-removebg.png" alt="ss" defer>
