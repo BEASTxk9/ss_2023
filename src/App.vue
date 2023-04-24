@@ -19,7 +19,6 @@
   box-sizing: border-box;
   /* this will remove default cursor */
   cursor: none;
-  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

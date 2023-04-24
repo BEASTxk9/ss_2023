@@ -137,7 +137,6 @@ header.sticky{
     }
   
     header{
-      width: 200vw;
       overflow-x: scroll;
       display: contents;
     }
@@ -145,6 +144,8 @@ header.sticky{
     header ul li a{
       padding-top: 0px;
       font-size: 0.9rem;
+      padding: 0;
+      margin: 0;
     }
 
 } 
