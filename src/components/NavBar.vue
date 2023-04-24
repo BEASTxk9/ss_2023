@@ -29,15 +29,16 @@
         </ul>
 
 
-      </header>
-
-
-      
+      </header>     
 </template>
 
 <script>
+import Projects from './Projects.vue';
+
 export default {
-    
+    components:{
+      Projects
+    }
 }
 
 //   _________________
