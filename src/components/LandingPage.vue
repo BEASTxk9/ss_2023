@@ -6,19 +6,7 @@
     <div class="col-sm-12 main-content justify-content-center text-center">
 
       <!-- type writer -->
-      <div class="container typewriter-container">
-        <transition name="slide-right" appear>
-          <h1 class="typewriter-text">
-            <a
-              href="#about"
-              class="typewrite text-white"
-              data-period="2500"
-              data-type='[ "Hi there,", "Im Shane,"]'
-            >
-            </a>
-          </h1>
-        </transition>
-      </div>
+      <div class="typewriter">{{ text }}</div>
       <h2>Aspiring Web Developer & Designer</h2>
 
         <a href="#about">
@@ -55,60 +43,36 @@ components :{
     Scroll_btn,
     Socials_btn,
     Projects
-}
+},
+
+data() {
+  return {
+    text: '',
+  };
+},
+methods: {
+  typeWriter() {
+    const text = "Hi, I'm Shane Stevens.";
+    let i = 0;
+
+    setInterval(() => {
+      this.text += text.charAt(i);
+      i++;
+
+      if (i > text.length) {
+        clearInterval();
+      }
+    }, 100);
+  },
+},
+mounted() {
+  this.typeWriter();
+},
+
+
 }
 
-// type nwriter effect
-var TxtType = function (el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = "";
-  this.tick();
-  this.isDeleting = false;
-};
-TxtType.prototype.tick = function () {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
-  var that = this;
-  var delta = 200 - Math.random() * 100;
-  if (this.isDeleting) {
-    delta /= 2;
-  }
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === "") {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-  setTimeout(function () {
-    that.tick();
-  }, delta);
-};
-window.onload = function () {
-  var elements = document.getElementsByClassName("typewrite");
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute("data-type");
-    var period = elements[i].getAttribute("data-period");
-    if (toRotate) {
-      new TxtType(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-  document.body.appendChild(css);
-};
+
 </script>
 
 <style scoped>
@@ -134,19 +98,21 @@ padding-top:23vh;
 font-weight: 500;
 letter-spacing: 2px;
 }
-.typewriter-text, a{
-    font-size: 4rem;
-    text-decoration: none;
-    letter-spacing: 2px;
-    padding: 0;
-    margin: 0;
-  }
+
+.typewriter {
+font-size: 4rem;
+font-weight: bold;
+transition: all 3s ease-in-out;
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
 
 
   @media only screen and (max-width: 769px){
-    .typewriter-text, a{
-        font-size: 3rem;
+    .typewriter {
+      font-size: 1.5rem;
       }
+      
+
       #content{
         margin-top: -20vh;
       }

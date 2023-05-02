@@ -17,7 +17,7 @@
 </transition>
   </template>
   
-  <style>
+  <style scoped>
   .loader {
     display: flex;
     justify-content: center;
@@ -31,8 +31,7 @@
   
   .fade-enter, .fade-leave-to {
     opacity: 0;
-  }
-  
+  }  
 
   .spinner {
     height: 50px;
