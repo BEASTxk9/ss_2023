@@ -1,7 +1,30 @@
 <template>
-
+<Loader :loading="loading">
   <router-view/>
+</Loader>
+
 </template>
+
+<script>
+import Loader from './components/Loader.vue';
+
+export default {
+  components: {
+    Loader
+  },
+  data() {
+    return {
+      loading: true
+    }
+  },
+  mounted() {
+    // simulate website loading for 2 seconds
+    setTimeout(() => {
+      this.loading = false
+    }, 2500)
+  }
+}
+</script>  
 
 <style>
 #app {
