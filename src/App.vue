@@ -21,7 +21,7 @@ export default {
     // simulate website loading for 2 seconds
     setTimeout(() => {
       this.loading = false
-    }, 2500)
+    }, 3000)
   }
 }
 </script>  
