@@ -1,4 +1,5 @@
 <template>
+    <transition name="fade">
     <div v-if="loading" class="loader">
 <div class="spinner">
   <span>L</span>
@@ -13,6 +14,7 @@
     <div v-else>
       <slot></slot>
     </div>
+</transition>
   </template>
   
   <style>
@@ -21,6 +23,14 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
   }
   
 
