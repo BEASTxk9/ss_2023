@@ -53,6 +53,7 @@ export default {
   background-image: url("https://i.postimg.cc/GtK3ZCJt/pexels-bich-tran-669996.jpg");
   background-size: cover;
   z-index: -10;
+  filter: brightness(30%);
 }
 
 main{

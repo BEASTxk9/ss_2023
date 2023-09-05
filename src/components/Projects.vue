@@ -23,7 +23,7 @@
                   class="projectimg"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal2"
-                  src="https://i.postimg.cc/QVGHPMYF/Screenshot-2022-07-20-141912.jpg"
+                  src="https://i.postimg.cc/g0cz07rc/Screenshot-2023-09-05-115719.png"
                 />
         
                 <!-- portfolio2 -->
@@ -31,7 +31,7 @@
                   class="projectimg"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal3"
-                  src="https://i.postimg.cc/qvmCBpz5/Screenshot-2022-07-20-141712.jpg"
+                  src="https://i.postimg.cc/GmYg63j6/Screenshot-2023-09-05-115058.png"
                 />
                 <!-- Roasted Beans -->
                 <img
@@ -88,19 +88,19 @@
                   <div class="modal-footer">
                     <button
                       type="button"
-                      class="btn btn-dark text-primary"
+                      class="vist_btns"
                       data-bs-dismiss="modal"
                     >
                       <a
-                        class="text-primary"
+                        class=""
                         href="https://github.com/BEASTxk9/Property_Finder-101"
                         target="_blank"
                         >Github</a
                       >
                     </button>
-                    <button type="button" class="btn btn-dark text-primary">
+                    <button type="button" class="vist_btns">
                       <a
-                        class="text-primary"
+                        class=""
                         href="https://fastidious-lily-44d13b.netlify.app"
                         target="_blank"
                         >Live</a
@@ -135,7 +135,7 @@
                         <div class="col-md-6">
                           <img
                             class="image"
-                            src="https://i.postimg.cc/QVGHPMYF/Screenshot-2022-07-20-141912.jpg"
+                            src="https://i.postimg.cc/g0cz07rc/Screenshot-2023-09-05-115719.png"
                            width="100%"
                           />
                         </div>
@@ -148,21 +148,21 @@
                   <div class="modal-footer">
                     <button
                       type="button"
-                      class="btn btn-dark text-primary"
+                      class="vist_btns"
                       data-bs-dismiss="modal"
                     >
                       <a
-                        class="text-primary"
+                        class=""
                         href="
-                        https://github.com/BEASTxk9/Shane-Stevens-Portfolio"
+                        https://github.com/BEASTxk9/Shane-Stevens_Vue-Portfolio"
                         target="_blank"
                         >Github</a
                       >
                     </button>
-                    <button type="button" class="btn btn-dark">
+                    <button type="button" class="vist_btns">
                       <a
-                        class="text-primary"
-                        href="https://shane-stevens-portfolio.netlify.app"
+                        class=""
+                        href="https://vue-portfolio-shane-stevens.web.app/"
                         target="_blank"
                         >Live</a
                       >
@@ -177,7 +177,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel3">Simple Portfolio Template 1</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel3">Full Stack</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
@@ -185,22 +185,22 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="image" src="https://i.postimg.cc/qvmCBpz5/Screenshot-2022-07-20-141712.jpg"
+                                                    <img class="image" src="https://i.postimg.cc/GmYg63j6/Screenshot-2023-09-05-115058.png"
                                                     width="100%">
                                                 </div>
                                                 <div class="col-md-6">
-                                                    This is a simple portfolio that can be used as a template. It was created using basic HTML, CSS and BOOTSTRAP5.
+                                                  This is a fullstack website create with php, wordpress and mysql.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
-                                                class="text-primary"
+                                        <button style="display:none;" type="button" class="vist_btns" data-bs-dismiss="modal"><a
+                                                class=""
                                                 href="https://github.com/BEASTxk9/MOCK-DIGITAL-PROFILE/blob/main/index.html"
                                                 target="_blank">Github</a></button>
-                                        <button type="button" class="btn btn-dark"><a class="text-primary"
-                                                href="https://beastxk9.netlify.app"
+                                        <button type="button" class="vist_btns"><a class=""
+                                                href="https://dev-lime-wraps.pantheonsite.io/"
                                                 target="_blank">Live</a></button>
                                     </div>
                                 </div>
@@ -228,10 +228,10 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
-                                                class="text-primary" href="https://github.com/BEASTxk9/E-commerce-shop-vue"
+                                        <button type="button" class="vist_btns" data-bs-dismiss="modal"><a
+                                                class="" href="https://github.com/BEASTxk9/E-commerce-shop-vue"
                                                 target="_blank">Github</a></button>
-                                        <button type="button" class="btn btn-dark"><a class="text-primary"
+                                        <button type="button" class="vist_btns"><a class=""
                                                 href="https://roasted-beans-b99e0.web.app/"
                                                 target="_blank">Live</a></button>
                                     </div>
@@ -260,11 +260,11 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
-                                                class="text-primary" href="https://github.com/BEASTxk9/vuetify-heathtracker"
+                                        <button type="button" class="vist_btns" data-bs-dismiss="modal"><a
+                                                class="" href="https://github.com/BEASTxk9/vuetify-heathtracker"
                                                 target="_blank">Github</a></button>
-                                        <button type="button" class="btn btn-dark text-primary">
-                                            <a class="text-primary" href="https://shanestevens-healthtracker.netlify.app/#/"
+                                        <button type="button" class="vist_btns">
+                                            <a class="" href="https://shanestevens-healthtracker.netlify.app/#/"
                                                 target="_blank">Live</a></button>
                                     </div>
                                 </div>
@@ -297,10 +297,10 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-dark text-primary" data-bs-dismiss="modal"><a
-                                                class="text-primary" href="https://github.com/BEASTxk9/calculator"
+                                        <button type="button" class="vist_btns" data-bs-dismiss="modal"><a
+                                                class="" href="https://github.com/BEASTxk9/calculator"
                                                 target="_blank">Github</a></button>
-                                        <button type="button" class="btn btn-dark"><a class="text-primary"
+                                        <button type="button" class="vist_btns"><a class=""
                                                 href="https://verdant-bavarois-beffa9.netlify.app"
                                                 target="_blank">Live</a></button>
                                     </div>
@@ -342,7 +342,7 @@ export default {
                     id: "3",
                     name: "Simple Portfolio Template 1",
                     image:
-                        "https://i.postimg.cc/qvmCBpz5/Screenshot-2022-07-20-141712.jpg",
+                        "https://i.postimg.cc/GmYg63j6/Screenshot-2023-09-05-115058.png",
                     url: "https://beastxk9.netlify.app",
                     description:
                         "This is a simple portfolio that can be used as a template. It was created using basic HTML, CSS and BOOTSTRAP5.",
@@ -364,6 +364,10 @@ export default {
 </script>
 
 <style scoped>
+.modal{
+  color: black;
+}
+
 #btn-toggle {
     background-color: transparent;
     border: 1px solid white;
@@ -415,11 +419,23 @@ export default {
 }
 
 .image {
-    margin-top: 2.5rem;
+    margin-top: 0rem;
 }
 
 #other-links {
     overflow-x: hidden;
+}
+
+.vist_btns{
+  background-color: #171717;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.vist_btns a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 767px) {

@@ -167,7 +167,7 @@ export default {
     width: 3em;
     height: 3em;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
     background-color: transparent;
     transition: .4s all;
@@ -208,8 +208,11 @@ export default {
     background-color: black;
   }
   .btn3:hover .git {
-    fill: white;
+    fill: rgb(255, 255, 255);
   } 
+  svg.git{
+    fill: white !important;
+  }
 
   @media only screen and (max-width: 769px){
     .btn1,.btn2,.btn3{
