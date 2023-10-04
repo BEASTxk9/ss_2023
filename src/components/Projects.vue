@@ -11,12 +11,12 @@
         <section id="projects" class="text-black">
             <div class="container">
               <div class="projects-container pt-5">
-                <!-- property-finder -->
+                <!-- canvas -->
                 <img
                   class="projectimg"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
-                  src="https://i.postimg.cc/Mpf9V3Vt/Screenshot-2022-07-20-140846.jpg"
+                  src="https://i.postimg.cc/FFLJMYFx/Screenshot-2023-10-04-111447.png"
                 />
                 <!-- portfolio-1 -->
                 <img
@@ -59,7 +59,7 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Property-Finder</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Canvas</h5>
                     <button
                       type="button"
                       class="btn-close"
@@ -73,14 +73,12 @@
                         <div class="col-md-6">
                           <img
                             class="image"
-                            src="https://i.postimg.cc/Mpf9V3Vt/Screenshot-2022-07-20-140846.jpg"
+                            src="https://i.postimg.cc/FFLJMYFx/Screenshot-2023-10-04-111447.png"
                             width="100%"
                           />
                         </div>
                         <div class="col-md-6">
-                          This is a property site created using vue in normal HTML. It
-                          displays numerous properties that can be bought, sold and
-                          rented...The ideal site for planning a holiday.
+                          This canvas was created using html, css & js. Give it a try!
                         </div>
                       </div>
                     </div>
@@ -93,7 +91,7 @@
                     >
                       <a
                         class=""
-                        href="https://github.com/BEASTxk9/Property_Finder-101"
+                        href="https://github.com/BEASTxk9/js-canvas"
                         target="_blank"
                         >Github</a
                       >
@@ -101,7 +99,7 @@
                     <button type="button" class="vist_btns">
                       <a
                         class=""
-                        href="https://fastidious-lily-44d13b.netlify.app"
+                        href="https://js-canvas-xk9.netlify.app/"
                         target="_blank"
                         >Live</a
                       >
