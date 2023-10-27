@@ -4,7 +4,7 @@
         <h1 class="pb-5">ABOUT</h1>
         <!-- img -->
         <div class="col-sm-12 col-md-6">
-          <img id="ss" class="rounded-pill" src="https://i.postimg.cc/8P3Z2Mn2/me3-removebg.png" alt="ss" defer>
+          <img id="ss" src="https://i.postimg.cc/7YvpHp1D/20231027-184256-Cartoonize-Effect.jpg" alt="ss" defer>
         </div>
         <!-- text -->
         <div id="about_me" class="col-sm-12 col-md-6 text-start">
@@ -57,9 +57,12 @@ CV_btn
     }
 
     #ss{
-      -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(80%);
+      /*-webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+      /*filter: grayscale(80%); */
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
       max-height: 80vh;
+      opacity: 0.7;
     }
 
     @media only screen and (max-width: 767.5px){
