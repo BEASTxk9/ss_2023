@@ -40,12 +40,13 @@
                   data-bs-target="#exampleModal4"
                   src="https://i.postimg.cc/cHq51Sms/Screenshot-2022-10-10-122005.png"
                 />
-                <!-- calculator -->
-                    <img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal6"
-                                        src="https://i.postimg.cc/jqc2RPGD/calculator.png" />
         <!-- healthtracker -->
                                     <img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal5"
                                         src="https://i.postimg.cc/zfpmdXcL/Screenshot-2022-11-01-142956.png" />
+                                                   <!-- we code -->
+                    <img class="projectimg" data-bs-toggle="modal" data-bs-target="#exampleModal6"
+                    src="https://i.postimg.cc/dVdxYCR8/Screenshot-2023-11-21-123120.png" />
+
               </div>
             </div>
             <!-- Modal1 -->
@@ -274,7 +275,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel6">Calculator</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel6">We Code (Website template)</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
@@ -282,24 +283,21 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="image-fluid" src="https://i.postimg.cc/jqc2RPGD/calculator.png" width="100%"
+                                                    <img class="image-fluid" src="https://i.postimg.cc/dVdxYCR8/Screenshot-2023-11-21-123120.png" width="100%"
                                                         height="100%">
                                                 </div>
                                                 <div class="col-md-6">
-                                                    This projects was created using HTML & CSS. It was made to digitally display
-                                                    how a
-                                                    calculator looks like
-                                                    but it is not functional, yet...
+                                                    This projects was created using HTML, CSS, & JS. It is a simple website template.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="vist_btns" data-bs-dismiss="modal"><a
-                                                class="" href="https://github.com/BEASTxk9/calculator"
+                                                class="" href="https://github.com/BEASTxk9/WE-CODE"
                                                 target="_blank">Github</a></button>
                                         <button type="button" class="vist_btns"><a class=""
-                                                href="https://verdant-bavarois-beffa9.netlify.app"
+                                                href="https://we-code-template.netlify.app/"
                                                 target="_blank">Live</a></button>
                                     </div>
                                 </div>
